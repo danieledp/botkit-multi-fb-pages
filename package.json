@@ -1,0 +1,16 @@
+{
+  "name": "botkit-multi-fb-pages",
+  "version": "0.0.1",
+  "description": "Starter project to use multiple Facebook pages with Botkit.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniele",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.6.9",
+    "express": "^4.16.2",
+    "node-env-file": "^0.1.8"
+  }
+}
