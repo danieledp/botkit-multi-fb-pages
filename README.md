@@ -18,8 +18,9 @@ FB_WEBHOOK_PORT= ....
 POOL_PORT= ....
 ```
 
-Edit the bots-pool.js and add a couple of pages to give it a try.
-
-Use start.js to run it.
+To give it a try use nginx (or equivalent) as a reverse proxy to expose the webhook endpoint and add a couple of pages in the bots-pool.js. Then run everything with: 
+```
+nodejs start.js
+```
 
 Cheers!
